@@ -64,11 +64,20 @@ class TestLocators:
     # соус цена которого 88 алмазов
     SAUCE_88 = (By.XPATH, '//p[text() = "Соус с шипами Антарианского плоскоходца"]')
 
-    # булка цена которой 1288 алмазов
+    # детали соуса за 88 алмазов
+    SAUCE_88_DETAILS = (By.XPATH, '//p[@class="text text_type_main-medium mb-8" and text() = "Соус с шипами Антарианского плоскоходца"]')
+
+    # булка цена которой 1255 алмазов
     BUN_1255 = (By.XPATH, '//p[text() = "Краторная булка N-200i"]')
+
+    # детали булки за 1255 алмазов
+    BUN_1255_DETAILS = (By.XPATH, '//p[@class = "text text_type_main-medium mb-8" and text() = "Краторная булка N-200i"]')
 
     # начинка цена которой 4142 алмазов
     TOPPING_4142 = (By.XPATH, '//p[text() = "Сыр с астероидной плесенью"]')
+
+    # детали начинки за 4142 алмазов
+    TOPPING_4142_DETAILS = (By.XPATH, '//p[@class = "text text_type_main-medium mb-8" and text() = "Сыр с астероидной плесенью"]')
 
 
 
