@@ -55,29 +55,23 @@ class TestLocators:
     # раздел соусы в меню
     SAUSE_SECTION = (By.XPATH, '//span[text() = "Соусы"]')
 
+    # раздел соусы после клика
+    SAUSE_SECTION_AFTER_CLICK = (By.XPATH, '//*[contains(@class, tab_tab_type_current) and text()="Соусы"]')
+
     # раздел булки в меню
     BUNS_SECTION = (By.XPATH, '//span[text() = "Булки"]')
+
+    # раздел булки после клика
+    BUNS_SECTION_AFTER_CLICK = (By.XPATH, '//*[contains(@class, tab_tab_type_current) and text()="Булки"]')
 
     #раздел начинки в меню
     TOPPINGS_SECTION = (By.XPATH, '//span[text() = "Начинки"]')
 
-    # соус цена которого 88 алмазов
-    SAUCE_88 = (By.XPATH, '//p[text() = "Соус с шипами Антарианского плоскоходца"]')
+    # раздел начинки после клика
+    TOPPINGS_SECTION_AFTER_CLICK = (By.XPATH, '//*[contains(@class, tab_tab_type_current) and text()="Начинки"]')
 
-    # детали соуса за 88 алмазов
-    SAUCE_88_DETAILS = (By.XPATH, '//p[@class="text text_type_main-medium mb-8" and text() = "Соус с шипами Антарианского плоскоходца"]')
-
-    # булка цена которой 1255 алмазов
-    BUN_1255 = (By.XPATH, '//p[text() = "Краторная булка N-200i"]')
-
-    # детали булки за 1255 алмазов
-    BUN_1255_DETAILS = (By.XPATH, '//p[@class = "text text_type_main-medium mb-8" and text() = "Краторная булка N-200i"]')
-
-    # начинка цена которой 4142 алмазов
-    TOPPING_4142 = (By.XPATH, '//p[text() = "Сыр с астероидной плесенью"]')
-
-    # детали начинки за 4142 алмазов
-    TOPPING_4142_DETAILS = (By.XPATH, '//p[@class = "text text_type_main-medium mb-8" and text() = "Сыр с астероидной плесенью"]')
+    # заголовок на странице конструктора
+    HEADER_CONSTRUCTOR_PAGE = (By.XPATH, '//h1[text() = "Соберите бургер"]')
 
 
 
